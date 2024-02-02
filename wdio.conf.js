@@ -55,12 +55,12 @@ exports.config = {
     //
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
-        platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'ebac-qa',
-        'appium:platformVersion': '9.0',
-        'appium:automationName': 'UiAutomator2',
-        'appium:app': join(process.cwd(), './app/android/wcandroid-16.9-universal.apk'),
+        'platformName': 'Android',
+        'browserName': 'Chrome',
+        'deviceName': 'ebac-qa',
+        'platformVersion': '9.0',
+        'automationName': 'UiAutomator2',
+        'app': join(process.cwd(), './app/android/wcandroid-16.9-universal.apk'),
         'appWaitActivity':'com.woocommerce.android/.ui.login.LoginActivity'
     }],
 
