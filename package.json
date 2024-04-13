@@ -16,6 +16,11 @@
     "@wdio/mocha-framework": "^8.29.0",
     "@wdio/spec-reporter": "^8.29.0",
     "appium": "^2.4.1",
-    "appium-uiautomator2-driver": "^2.42.2"
+    "appium-uiautomator2-driver": "^2.42.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bundletool": "^1.1.7"
   }
 }
